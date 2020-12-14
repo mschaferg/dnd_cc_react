@@ -17,22 +17,18 @@ const App = () => {
 
   const handleChange2 = event => {
     setRace(event.target.value);
-    event.preventDefault();
   }
 
   const handleChange3 = event => {
     setSubrace(event.target.value);
-    event.preventDefault();
   }
 
   const handleChange4 = event => {
     setClass(event.target.value);
-    event.preventDefault();
   }
 
   const handleChange5 = event => {
     setBackground(event.target.value);
-    event.preventDefault();
   }
 
 
